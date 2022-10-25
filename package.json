@@ -1,6 +1,6 @@
 {
   "name": "@linhx/ckeditor5-build",
-  "version": "0.0.1-alpha.7",
+  "version": "0.0.1-alpha.11",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -47,6 +47,7 @@
     "@ckeditor/ckeditor5-theme-lark": "^35.2.1",
     "@ckeditor/ckeditor5-typing": "^35.2.1",
     "@linhx/ckeditor5-adapter-filemanager": "^0.0.1-alpha.2",
+    "@linhx/ckeditor5-emoji": "^0.0.6",
     "eslint": "^5.5.0",
     "eslint-config-ckeditor5": "^2.0.0",
     "husky": "^1.3.1",
