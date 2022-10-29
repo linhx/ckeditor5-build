@@ -62,6 +62,8 @@ import link from './link';
 import table from './table';
 import list from './list';
 
+import './style.css';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
