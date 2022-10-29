@@ -5,7 +5,7 @@ CKEditor 5 classic editor build
 
 <p align=center>The package was moved to the <a href="https://github.com/ckeditor/ckeditor5/tree/master/packages">main repository</a>.</p>
 
-[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
+[![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@linhx/ckeditor5-build)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
 [![devDependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/dev-status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic?type=dev)
 
@@ -27,7 +27,7 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @ckeditor/ckeditor5-build-classic
+npm install --save @linhx/ckeditor5-build
 ```
 
 And use it in your website:
@@ -36,7 +36,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+<script src="./node_modules/@linhx/ckeditor5-build/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -52,10 +52,10 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import ClassicEditor from '@linhx/ckeditor5-build';
 
 // Or using the CommonJS version:
-// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
+// const ClassicEditor = require( '@linhx/ckeditor5-build' );
 
 ClassicEditor
 	.create( document.querySelector( '#editor' ) )
@@ -67,7 +67,14 @@ ClassicEditor
 	} );
 ```
 
+Import emoji style
+
+[@linhx/ckeditor5-emoji](https://github.com/linhx/ckeditor5-emoji#style-and-emoji-sprite)
+You can copy `emoji.css` to your project instead of install it.
+
+
 **Note:** If you are planning to integrate CKEditor 5 deep into your application, it is actually more convenient and recommended to install and import the source modules directly (like it happens in `ckeditor.js`). Read more in the [Advanced setup guide](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/advanced-setup.html).
+
 
 ## License
 
