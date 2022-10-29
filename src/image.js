@@ -25,7 +25,7 @@ export default {
 		toolbar: [
 			'imageTextAlternative', 'toggleImageCaption', '|',
 			'imageStyle:inline', 'imageStyle:wrapText', 'imageStyle:breakText', 'imageStyle:side', '|',
-			'resizeImage'
+			'resizeImage', 'linkImage'
 		]
 	}
 };
