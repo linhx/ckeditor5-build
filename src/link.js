@@ -1,7 +1,5 @@
 export default {
 	link: {
-		decorators: {
-			addTargetToExternalLinks: true
-		}
+		addTargetToExternalLinks: true
 	}
 };
